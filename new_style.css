@@ -1,0 +1,65 @@
+h1 {
+  font-size: 60px;
+
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Architects Daughter', cursive;
+
+  letter-spacing: 0.1em;
+}
+p{
+  font-size: 24px;
+  font-family: "times", sans-serif;
+}
+#footer{
+  font-family: 'Architects Daughter', cursive;
+
+}
+#copyright{
+  font-weight: bold, small;
+}
+#imageORurl img{
+  border: 1px solid black;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: #0466b2;color:white;}
+footer {
+  
+  background: #aaa;
+  color:#eb1d26;
+}
+a{
+  text-decoration: none;
+  color:#eb1d26;
+
+}
+#imageORurl {background:#eee;}
+
+#imageORurlul {
+    list-style-type: none;
+ padding: 0;
+}
+
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
